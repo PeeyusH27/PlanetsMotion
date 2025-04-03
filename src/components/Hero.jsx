@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="container grid grid-cols-1 md:grid-cols-2 h-screen md:h-[700px] relative">
 
                 {/* Info Section */}
-                <div className='flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px] order-2 md:order-1 '>
+                <div className='flex flex-col justify-center pt-14 md:py-0 xl:max-w-[500px] order-2 md:order-1 '>
                     <div className='space-y-5 md:space-y-7 text-center md:text-left'>
                         <AnimatePresence mode='wait'>
                             <motion.h1
